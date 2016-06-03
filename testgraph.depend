@@ -41,3 +41,17 @@
 	"Graph.h"
 	<graphics.h>
 
+1464978170 source:c:\users\sajad buch\desktop\cglab\graph-plot-using-graphics.h\main.cpp
+	"Graph.h"
+	<graphics.h>
+
+1464978129 c:\users\sajad buch\desktop\cglab\graph-plot-using-graphics.h\graph.h
+
+1464978613 source:c:\users\sajad buch\desktop\cglab\graph-plot-using-graphics.h\graph.cpp
+	"Graph.h"
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<graphics.h>
+	<string>
+

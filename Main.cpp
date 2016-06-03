@@ -5,15 +5,22 @@ using namespace std;
 
 int main()
 {
-    initwindow(800, 600, "Asif & Sameem - Plots");
+    char* file_path = "data/points.txt";
+    char* x_label = "YEAR";
+    char* y_label = "POPULATION";
 
-    Graph g("data/points.txt");
+    Graph g(file_path, x_label, y_label);
 
-    g.plot();
+
+    g.xyPlot();
     getch();
 
-    g.scatter();
+    g.scatterPlotCircle();
+    getch();
+
+    g.scatterPlotCross();
     getch();
 
     closegraph();
+    return 0;
 }
