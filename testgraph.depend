@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1464803836 source:c:\users\sajad buch\desktop\cglab\testgraph\main.cpp
+	"Graph.h"
+	<graphics.h>
+
+1464803901 c:\users\sajad buch\desktop\cglab\testgraph\graph.h
+
+1464804080 source:c:\users\sajad buch\desktop\cglab\testgraph\graph.cpp
+	"Graph.h"
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<graphics.h>
+	<string>
+
+1464804311 source:c:\users\sajad buch\desktop\cglab\project\graph-plot-using-graphics.h\main.cpp
+	"Graph.h"
+	<graphics.h>
+
+1464803901 c:\users\sajad buch\desktop\cglab\project\graph-plot-using-graphics.h\graph.h
+
+1464804080 source:c:\users\sajad buch\desktop\cglab\project\graph-plot-using-graphics.h\graph.cpp
+	"Graph.h"
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<graphics.h>
+	<string>
+
