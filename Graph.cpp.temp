@@ -54,7 +54,7 @@ Graph::Graph(char* data_file, char* x_label, char* y_label){
         flip = !flip;
     }while(status == 1);
 
-    initwindow(MAX_X, MAX_Y, "Asif & Sameem's plots."); // Looks better with my name first ;)
+    initwindow(MAX_X, MAX_Y, "Asif & Sameem's plots.");
     init();
 }
 
@@ -97,7 +97,7 @@ void Graph::scatterPlotCircle() {
    outtextxy(425, 40, "SCATTER PLOT CIRCLE");
    setcolor(YELLOW);
    for (int i = 0; i < counter; ++i) {
-      drawcircle(points[i][0], points[i][1], 3);
+      drawcircle(points[i][0], points[i][1], 2);
    }
 }
 
